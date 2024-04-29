@@ -1,0 +1,35 @@
+<export xmlns="http://de.fhg.iais.roberta.blockly"><program><block_set xmlns="http://de.fhg.iais.roberta.blockly" robottype="ev3" xmlversion="3.1" description="" tags=""><instance x="239" y="38"><block type="robControls_start" id="c7eFFLWRJ8I]W!qB1Pwh" intask="true" deletable="false"><mutation declare="false"></mutation><field name="DEBUG">FALSE</field><data>{"learningRate":0.03,"regularizationRate":0,"noise":0,"batchSize":10,"discretize":false,"percTrainData":50,"activationKey":"linear","activation":{},"regularization":null,"initUntil":null,"collectStats":false,"numHiddenLayers":0,"networkShape":[],"weights":[[],[]],"biases":[[],[]],"precision":"2","weightArcMaxSize":8,"weightSuppressMultOp":true,"inputs":[],"outputs":[]}</data></block><block type="robActions_brickLight_on" id="V[.;H?c94BnCPO#DdsU=" intask="true"><field name="SWITCH_COLOR">RED</field><field name="SWITCH_BLINK">FLASH</field></block><block type="controls_repeat_ext" id="60|5TSc27s+u~@pw7M10" intask="true"><value name="TIMES"><block type="math_number" id="SUo7v.AUyA6)R}4Om+M(" intask="true"><field name="NUM">3</field></block></value><statement name="DO"><block type="robActions_motorDiff_on_for" id="qjQjcUD.b!-i_50`M`h?" intask="true"><field name="DIRECTION">FOREWARD</field><value name="POWER"><block type="math_number" id=";SnxPTV2nf/(1|gIN4,|" intask="true"><field name="NUM">20</field></block></value><value name="DISTANCE"><block type="math_number" id="g=4[R`L=}3,JHYNVbbgj" intask="true"><field name="NUM">30</field></block></value></block><block type="robActions_motorDiff_turn_for" id="@y/xp!KG`Fx{SS4:k=M9" intask="true"><field name="DIRECTION">RIGHT</field><value name="POWER"><block type="math_number" id="#^MqRWX{ZrqH@X_Ju)tW" intask="true"><field name="NUM">20</field></block></value><value name="DEGREE"><block type="math_number" id="q87S%:de[tvbgzP~nx{k" intask="true"><field name="NUM">90</field></block></value></block></statement></block><block type="robControls_wait_time" id="M7h@#AS^MDIpLeA.c6Bl" intask="true"><value name="WAIT"><block type="math_number" id="Kp1stxUuMl`vcBj.g|]%" intask="true"><field name="NUM">1000</field></block></value></block><block type="robActions_motorDiff_turn_for" id="[8WJq=k?O:NN.}dil99u" intask="true"><field name="DIRECTION">RIGHT</field><value name="POWER"><block type="math_number" id="k_o]wn*vhOnwlsnl2Fu," intask="true"><field name="NUM">20</field></block></value><value name="DEGREE"><block type="math_number" id="m/C25vkzJRdKoi287jZ3" intask="true"><field name="NUM">90</field></block></value></block><block type="robActions_motorDiff_curve_for" id="h(bNfU3-[Gzgi^q%3?)!" intask="true"><field name="DIRECTION">FOREWARD</field><value name="POWER_LEFT"><block type="math_number" id="TkF6SoY@%dI[8lP?|5MY" intask="true"><field name="NUM">1</field></block></value><value name="POWER_RIGHT"><block type="math_number" id="d^L}(N?gHi2X~dABW!}o" intask="true"><field name="NUM">2</field></block></value><value name="DISTANCE"><block type="math_number" id="GX.|PDnguQtG=DaGDc|}" intask="true"><field name="NUM">1</field></block></value></block><block type="controls_repeat_ext" id="gfDuonw!RS[3mm7zIxXL" intask="true"><value name="TIMES"><block type="math_number" id="N/aZr7%}k{n@D_C@]5~H" intask="true"><field name="NUM">2</field></block></value><statement name="DO"><block type="robActions_motorDiff_on_for" id="Tg{8d==OW3)vE#07rsg1" intask="true"><field name="DIRECTION">FOREWARD</field><value name="POWER"><block type="math_number" id="`{Nb3pH9:-On^E_.5BVR" intask="true"><field name="NUM">20</field></block></value><value name="DISTANCE"><block type="math_number" id="Dn?oWqg@UnQzWbYqlUE8" intask="true"><field name="NUM">20</field></block></value></block><block type="robActions_motorDiff_turn_for" id="Q]5A1|%r}ZMp:F59#SMP" intask="true"><field name="DIRECTION">RIGHT</field><value name="POWER"><block type="math_number" id="IO4-;UBaCfDZEq?z?Qi?" intask="true"><field name="NUM">20</field></block></value><value name="DEGREE"><block type="math_number" id="{T/Lvz_Q+U2`j.-/8j4Z" intask="true"><field name="NUM">45</field></block></value></block></statement></block><block type="controls_repeat_ext" id="pk.dejb]M_rVYOfMl9;!" intask="true"><value name="TIMES"><block type="math_number" id="0aI4m6!(XE6Cf/SB:,.{" intask="true"><field name="NUM">2</field></block></value><statement name="DO"><block type="robActions_motorDiff_on_for" id="kU;vc.)x|j.1z!4]Y.|v" intask="true"><field name="DIRECTION">FOREWARD</field><value name="POWER"><block type="math_number" id="yh:]z9:Q]V10s^|M9T%q" intask="true"><field name="NUM">20</field></block></value><value name="DISTANCE"><block type="math_number" id="bp[_})LkZqf+},Q?OgWj" intask="true"><field name="NUM">20</field></block></value></block><block type="robActions_motorDiff_turn_for" id="]kbik_M5`*j2/;Sag.P7" intask="true"><field name="DIRECTION">RIGHT</field><value name="POWER"><block type="math_number" id="g;pCv2kiBd]D2%WM)O@W" intask="true"><field name="NUM">20</field></block></value><value name="DEGREE"><block type="math_number" id="2TAY4sBwMilr;mGG`qjV" intask="true"><field name="NUM">90</field></block></value></block></statement></block><block type="robActions_motorDiff_on_for" id="M7XF}s/U~^b5,9:H4fbE" intask="true"><field name="DIRECTION">FOREWARD</field><value name="POWER"><block type="math_number" id="2Im}}o.pFUk_)h/j5UC-" intask="true"><field name="NUM">20</field></block></value><value name="DISTANCE"><block type="math_number" id=")-db+mPN}Uyz[UNbEY39" intask="true"><field name="NUM">20</field></block></value></block></instance></block_set></program><config><block_set xmlns="http://de.fhg.iais.roberta.blockly" robottype="ev3" xmlversion="3.1" description="" tags="">
+    <instance x="213" y="213">
+        <block type="robBrick_EV3-Brick" id="1" intask="true" deletable="false">
+            <field name="WHEEL_DIAMETER">5.6</field>
+            <field name="TRACK_WIDTH">18</field>
+            <value name="S1">
+                <block type="robBrick_touch" id="2" intask="true"></block>
+            </value>
+            <value name="S2">
+                <block type="robBrick_gyro" id="3" intask="true"></block>
+            </value>
+            <value name="S3">
+                <block type="robBrick_colour" id="4" intask="true"></block>
+            </value>
+            <value name="S4">
+                <block type="robBrick_ultrasonic" id="5" intask="true"></block>
+            </value>
+            <value name="MB">
+                <block type="robBrick_motor_big" id="6" intask="true">
+                    <field name="MOTOR_REGULATION">TRUE</field>
+                    <field name="MOTOR_REVERSE">OFF</field>
+                    <field name="MOTOR_DRIVE">RIGHT</field>
+                </block>
+            </value>
+            <value name="MC">
+                <block type="robBrick_motor_big" id="7" intask="true">
+                    <field name="MOTOR_REGULATION">TRUE</field>
+                    <field name="MOTOR_REVERSE">OFF</field>
+                    <field name="MOTOR_DRIVE">LEFT</field>
+                </block>
+            </value>
+        </block>
+    </instance>
+</block_set>
+</config></export>
